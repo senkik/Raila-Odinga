@@ -18,10 +18,13 @@ An NLP-driven data science project analyzing the public discourse and sentiment 
    git clone [https://github.com/senkik/Raila-Odinga.git](https://github.com/senkik/Raila-Odinga.git)
    cd Raila-Odinga
 2.Setup Environment:
-   PowerShell
+   PowerShell:
+   
+   ```python
    python -m venv raila_env
 .\raila_env\Scripts\activate
 pip install -r requirements.txt
+```
 API Configuration: Create a config.yaml file in the root directory (this is ignored by Git for security):
 
 YAML
@@ -29,7 +32,7 @@ YAML
 keys:
   bearer_token: "YOUR_TOKEN_HERE"
 
-  📊 Methodology
+## 📊 Methodology
 Data Collection: Filtering tweets using keywords like #RailaOdinga, Agwambo, and Tinga.
 
 Preprocessing:
@@ -39,5 +42,15 @@ Removing RTs, @mentions, and URLs.
 Normalizing text (lowercasing and removing emojis).
 
 Sentiment Scoring: Using TextBlob to assign Polarity scores (-1 to +1).
+
+## 📊 Results
+
+### Sentiment Analysis
+![Sentiment Distribution](./images/sentiment_analysis_chart.png)
+*Figure 1: Distribution of Positive, Neutral, and Negative sentiments from recent tweets.*
+
+### Topic Visualization
+![Word Cloud](./images/raila_wordcloud.png)
+*Figure 2: Trending keywords associated with the discourse.*
 
 
