@@ -1,0 +1,11 @@
+# config.yaml
+search_params:
+  query: "Raila Odinga OR #RailaOdinga OR Agwambo OR #Agwambo OR RailaAmolloOdinga OR RAO OR #RAO OR Tinga OR #Tinga OR Nyundo OR #Nyundo OR BabaRaila OR #BabaRaila OR ODM OR #ODM OR Jakom OR #Jakom OR Tinga OR #Tinga "
+  max_results: 100
+
+keys:
+  bearer_token: "AAAAAAAAAAAAAAAAAAAAAFCs6gEAAAAAc%2B%2BguTblPXWvR2XY8cxoFU6MrMY%3DayV5jyEUxQyPL2BEFjLVP1KRzcI5LR5xOEkMJCCpghrx3TBZAg"
+  api_key: "IsApXivO1FTZcu3izcr4dScon"
+  api_secret: "KLH4aMKxwgvFTQs2UQzhatK5fKnrJCUKq13na6hTSRBwJvcsV4"
+  access_token: "1772179655161786369-k2JAgcZUfS95wewuGmgLTGKUt2BLVM"
+  access_token_secret: "NoYGAenpH8hymJcvSEsQGb6cCIL1yAO1F8mEgpyonCJqS"
